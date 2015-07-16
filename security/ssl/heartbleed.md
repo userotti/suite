@@ -8,7 +8,7 @@ this is the heartbleed
 
 ### How to solve
 
-this is the heartbleed test
+The heartbleed bug is a direct consequence to a error int he 
 
 ### Weights from Community
 
