@@ -18,7 +18,13 @@ We have a active team on **#Slack** for discussions, login on [passmarked.com](h
 
 # File Structure
 
-**Passmarked** allows browsing and viewing rules that explains.
+**Passmarked** allows browsing and viewing rules that shows users issues and how to fix them.
+
+Each of these issues we look for are defined as a **rule** that are grouped into a **test** that groups related **rules**.
+
+For easier navigation each of the tests are grouped into **categories** which groups **tests** based on what is checked.
+
+The contents for each of these pages are added to folders in this repo based on the following structure:
 
 ## {category}/readme.md
 
