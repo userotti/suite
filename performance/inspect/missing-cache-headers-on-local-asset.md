@@ -48,7 +48,7 @@ If set to ``public`` any caching servers in between the server and the users' br
 
 ``max-age``:
 
-Sets how long the resource is allowed to be cached in seconds. If the resource was last cached more than the specified ```max-age`` a new version will be downloaded.
+Sets how long the resource is allowed to be cached in seconds. If the resource was last cached more than the specified ``max-age`` a new version will be downloaded.
 
 ``s-maxage``:
 
