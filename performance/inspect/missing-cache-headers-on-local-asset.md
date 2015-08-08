@@ -20,7 +20,7 @@ This is good for static content that you know will remain that way for the cache
 
 If necessary based on your site, your cache can be based on the content of your resources. This is useful if you do not have a idea on how often the content of a resource might change.
 
-This can be done by using the ```ETag``` header. 
+This can be done by using the ``ETag`` header. 
 
 # Options to control cache
 
@@ -28,7 +28,7 @@ Caching can be set and handle in various ways, by choosing one of the following 
 
 ## 1. Cache Control
 
-The ```Cache-Control``` header would be the best to use for modern browsers and offers the most options for your website to define how and when caching should take place.
+The ``Cache-Control`` header would be the best to use for modern browsers and offers the most options for your website to define how and when caching should take place.
 
 To enable cache control the following header should be added to the response:
 
@@ -38,49 +38,49 @@ cache-control: public, max-age=84600, no-cache
 
 Dissecting the header above it gives us various items we can set and each of the keysword:
 
-```private / public```:
+``private / public``:
 
 When the first item is marked as private/public this will control where the content is allowed to be cached.
 
-If set to ```private``` the file will only be allowed to cache on a users browser. Nothing else will cache the resource, this should be used for responses that will only be valid for a certain user.
+If set to ``private`` the file will only be allowed to cache on a users browser. Nothing else will cache the resource, this should be used for responses that will only be valid for a certain user.
 
-If set to ```public``` any caching servers in between the server and the users' browser will be allowed to cache the response. This is meant for resources that will be the same for all users using the site. A logo would be a perfect example. 
+If set to ``public`` any caching servers in between the server and the users' browser will be allowed to cache the response. This is meant for resources that will be the same for all users using the site. A logo would be a perfect example. 
 
-```max-age```:
+``max-age``:
 
-Sets how long the resource is allowed to be cached in seconds. If the resource was last cached more than the specified ```max-age``` a new version will be downloaded.
+Sets how long the resource is allowed to be cached in seconds. If the resource was last cached more than the specified ```max-age`` a new version will be downloaded.
 
-```s-maxage```:
+``s-maxage``:
 
 The ``s-`` refers to **Shared** as in **Shared Cache**, as in CDN. 
 
-This keyword is aimed at CDN's and other intermediary caches. When present this supersedes the ```max-age``` and ```expires``` header. 
+This keyword is aimed at CDN's and other intermediary caches. When present this supersedes the ``max-age`` and ``expires`` header. 
 
 Most well behaved CDN's will respect this.
 
-```min-fresh```:
+``min-fresh``:
 
 Indicates that the client is willing to accept a response whose freshness lifetime is no less than its current age plus the specified time in seconds. 
 
 That is, the client wants a response that will still be fresh for at least the specified number of seconds.
 
-```max-stale```:
+``max-stale``:
 
 Indicates that the client is willing to accept a response that has exceeded its expiration time. 
 
 If max-stale is assigned a value, then the client is willing to accept a response that has exceeded its expiration time by no more than the specified number of seconds. If no value is assigned to max-stale, then the client is willing to accept a stale response of any age.
 
-```no-cache```:
+``no-cache``:
 
 This keyword sets that the resource should be downloaded each time the user visits a page.
 
-```no-store```:
+``no-store``:
 
 This keyword will set that no part of the response will be stored in the cache. This was intended for sensitive pages.
 
 If followed to the word no part of the request will be stored either in a attempt to up the security more.
 
-```must-revalidate```:
+``must-revalidate``:
 
 This specifies any configuration where the cache is otherwise configured to serve stale content.
 
@@ -88,11 +88,11 @@ The client is required to send the request headers back and receive confirmation
 
 This will make clients send a **HEAD** request to check if the content has changed.
 
-```proxy-revalidate```:
+``proxy-revalidate``:
 
-Pretty much the same as the ```must-revalidate``` but aimed at intermediary caches. 
+Pretty much the same as the ``must-revalidate`` but aimed at intermediary caches. 
 
-```no-transform```:
+``no-transform``:
 
 When set this disabled any intermediary services that try and optimise by transforming resources to other formats.
 
@@ -120,7 +120,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 
 If the expires header is set the browser will mark the resource as stale when the datetime set is reached on the client side.
 
-These days the ```Cache-Control``` header takes precedence, but to account for older browsers it's best pracetice to set a matching ```Expires``` header.
+These days the ``Cache-Control`` header takes precedence, but to account for older browsers it's best pracetice to set a matching ``Expires`` header.
 
 You will want to also confirm that the date is in the correct format otherwise the browser might evaluate the date as expired.
 
@@ -146,7 +146,9 @@ The header sets which headers will be used by the client to determine when a res
 
 On a sidenote setting:
 
-```vary: User-Agent```
+```
+vary: User-Agent
+```
 
 will show that you are serving different versions of your HTML/CSS depending on the User-Agent. Some search engines like **Google** also take note of this header and will crawl for mobile content too.
 
