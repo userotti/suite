@@ -1,15 +1,20 @@
 Caching allows the users browser to keep a local copy of a resource for fast loading without downloading the entire resource from the server every time.
 
-This issue refers to a external resource that does not have caching headers defined which makes caching on the users' browser unpredictable.
+At a minimum a check is run to check for a ``max-age`` or ``expires`` that is expected to be atleast 2 days long, at **minimum**.
 
-We advice contacting the remote vendor and showing the information as to the benifits that will be gained by having complete control of how long a resource is cached at [passmarked.com/performance/inspect/missing-cache-headers-on-local-asset](http://passmarked.com/performance/inspect/missing-cache-headers-on-local-asset) which will also guide as to how this can be enabled.
+Ideally this cache would be set to a even longer period, like a few months/years.
+
+Consider using a public CDN that handles caching correctly from the following list:
+
+* [developers.google.com/speed/libraries/](https://developers.google.com/speed/libraries/)
+
+Else consider contacting the vendor and asking how the cache headers are setup.
+
+See [cache headers on local asset were less than 2 days](http://passmarked.com/performance/inspect/invalid-or-missing-cache-headers-on-local-resource) for detailed information on setting cache headers that will allow them be able to control how long these headers are set.
 
 # Resources
 
-Few links to read up for more detailed information:
-
-* [www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.1](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.1)
-* [www.mobify.com/blog/beginners-guide-to-http-cache-headers/](http://www.mobify.com/blog/beginners-guide-to-http-cache-headers/)
-* [devcenter.heroku.com/articles/increasing-application-performance-with-http-cache-headers#http-cache-headers](https://devcenter.heroku.com/articles/increasing-application-performance-with-http-cache-headers#http-cache-headers)
-* [stackoverflow.com/questions/3339859/what-is-the-risk-of-having-http-header-cache-control-public](http://stackoverflow.com/questions/3339859/what-is-the-risk-of-having-http-header-cache-control-public)
-* [blogs.msdn.com/b/ieinternals/archive/2009/06/17/vary-header-prevents-caching-in-ie.aspx](http://blogs.msdn.com/b/ieinternals/archive/2009/06/17/vary-header-prevents-caching-in-ie.aspx)
+* [gulpjs.com](http://gulpjs.com/)
+* [gruntjs.com](http://gruntjs.com/)
+* [en.wikipedia.org/wiki/Universally_unique_identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier)
+* [en.wikipedia.org/wiki/Timestamp](https://en.wikipedia.org/wiki/Timestamp)
