@@ -6,6 +6,6 @@ Just add a DOCTYPE to the start of your document:
 ```
 <!DOCTYPE html>
 <html>
- // The rest goes here
+ <!-- The rest goes here -->
 ```
 That is for HTML5 which is the recommended way forward.
