@@ -4,4 +4,4 @@ Any properties starting with `-` will be OK as they are considered vendor specif
 
 # How to Fix
 
-Use valid CSS or fix your typo. So if you've got `.box{heigth: 10px}` just fix it up.
+Use valid CSS or fix your typo. So if you've got `.box{height: 10px}` just fix it up.
