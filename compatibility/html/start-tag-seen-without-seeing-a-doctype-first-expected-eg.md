@@ -9,3 +9,8 @@ Just add a DOCTYPE to the start of your document:
  <!-- The rest goes here -->
 ```
 That is for HTML5 which is the recommended way forward.
+
+Any html4 DOCTYPE's just won't do anymore:
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
