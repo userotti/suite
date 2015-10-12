@@ -2,9 +2,15 @@ A block in a stylesheet may have zero or more declarations. All, some or none of
 
 ```css
 .an .element {
+
+    /* this is not valid */
     color: red;
     background-color: crimson;
     color: blue;
+
+    /* this is valid */
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 1);
 }
 ```
 
