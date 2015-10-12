@@ -1,4 +1,4 @@
-Do not use type attributes for style sheets (unless not using CSS) and scripts (unless not using JavaScript).
+Type attributes (`type="text/css"` and `type="text/javascript"`) for style sheets and scripts aren't required in HTML5 (unless using something other than css or javascript).
 
 Specifying type attributes in these contexts is not necessary as HTML5 implies text/css and text/javascript as defaults. **This can be safely done even for older browsers.**
 
