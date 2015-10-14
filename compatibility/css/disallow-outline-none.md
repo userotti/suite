@@ -1,6 +1,6 @@
 Having an outline is important for accessibility. Without this certain users will never know which elements has focus. 
 
-Taking this away because of ill conceived esthetics is bad.
+Taking this away because of ill-conceived aesthetics is bad.
 
 # How to Fix
 Do not remove the outline, but if you really have to you could modify it.
