@@ -35,4 +35,4 @@ This header is also enforced by the interpreter and must be last.
 -->
 # Resources
 
-* [http://example.com](Some Example)
+* [Some Example](http://example.com)
