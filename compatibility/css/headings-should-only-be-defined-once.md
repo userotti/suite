@@ -7,7 +7,7 @@ Make sure that you only have one definition per heading tag.
 
 The following is wrong:
 
-```
+```css
 h1 {
   color: black;
 }
