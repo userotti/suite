@@ -1,4 +1,4 @@
-The _star hack_ is a famous (or perhaps infamous) technique for applying CSS properties only to Internet Explorer prior to version 8. By placing an asterisk immediately before the property name, older versions of Internet Explorer treated it as if the asterisk isn't there while other browsers simply ignore it.
+The _star hack_ is a famous (or perhaps infamous) technique for applying CSS properties only to Internet Explorer prior to version 7. By placing an asterisk immediately before the property name, older versions of Internet Explorer treated it as if the asterisk isn't there while other browsers simply ignore it.
 
 ```css
 .mybox {
@@ -25,6 +25,10 @@ html > .mybox {
   width: 100px; /* Style override for standard browsers */
 }
 ```
+
+# Why this works
+
+Older versions of Internet Explorer don't understand child selectors, so the style override (targetting modern browsers) gets ignored.
 
 # Resources
 
