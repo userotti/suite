@@ -4,7 +4,7 @@ This issue refers to a external resource that does not have caching headers defi
 
 # How do I fix this ?
 
-We advise contacting the remote vendor and showing them the information as to the benifits that will be gained by having complete control of how long a resource is cached at [passmarked.com/performance/inspect/missing-cache-headers-on-local-asset](http://passmarked.com/performance/inspect/missing-cache-headers-on-local-asset) which will also guide as to how this can be enabled.
+We advise contacting the remote vendor and showing them the information as to the benifits that will be gained by having complete control of how long a resource is cached at [passmarked.com/performance/network/missing-cache-headers-on-local-asset](//passmarked.com/performance/network/missing-cache-headers-on-local-asset) which will also guide as to how this can be enabled.
 
 # Resources
 
