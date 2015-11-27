@@ -18,7 +18,7 @@ Keep detailed explanations for the rest of the document.
 
 <!-- 
 The following headers will be up to the author to decide on. 
-It is meant for deeper understanding most probably more developer orentied.
+It is meant for deeper understanding — most probably more developer orientated.
 Defined headers here will be closed to be opened by a user - keep this in mind when writing. 
 -->
 
@@ -30,7 +30,7 @@ Go as deep as you see fit !
 <!--
 Here we pay homage to the legends who have written about the rule.
 There are typically de-facto resources which most probably helped inspire our own content.
-If you've read from somewhere to help you write this, pleasse list them here.
+If you've read from somewhere to help you write this, please list them here.
 This header is also enforced by the interpreter and must be last.
 -->
 # Resources
