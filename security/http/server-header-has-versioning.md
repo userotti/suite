@@ -11,8 +11,8 @@ Last-Modified: Wed, 25 Nov 2015 16:00:16 GMT
 
 # How do I fix this ?
 
-nginx: specify `server_tokens off;` in either a global configuration, server configuration or location configuration.
-Apache: specify `ServerTokens Prod` in your top-most `.htaccess` configuration file.
+* nginx: specify `server_tokens off;` in either a global configuration, server configuration or location configuration.
+* Apache: specify `ServerTokens Prod` in your top-most `.htaccess` configuration file.
 
 # Resources
 
