@@ -1,6 +1,4 @@
-By displaying the version of your web server, and even the name, you are creating an opportunity for malicious intruders to attack your web application and/or server. 
-Removing any sensitive information of this kind from HTTP headers will make it far more difficult for an attacker to determine whether your server is vulnerable to an attack.
-It ought to be noted that this is not a guaranteed way of stopping hacking attempts, but it will make it harder for people to deliver an attack.
+By displaying the version of your web server, and even the name, you are creating an opportunity for malicious intruders to attack your web application and/or server. Removing any sensitive information of this kind from HTTP headers will make it far more difficult for an attacker to determine whether your server is vulnerable to an attack. It ought to be noted that this is not a guaranteed way of stopping hacking attempts, but it will make it harder for people to deliver an attack.
 
 ```
 HTTP/1.1 200 OK
