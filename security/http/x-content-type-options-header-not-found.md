@@ -1,4 +1,9 @@
+When your server serves a file, the browser uses the cotent-type as specified by your server. Certain (legacy) servers have problems serving the correct mime which resulting in Microsoft adding a feature which tries to "sniff" the content-type ([en.wikipedia.org/wiki/Content_sniffing](https://en.wikipedia.org/wiki/Content_sniffing)), this is done by looking at the first 256 bytes bytes of a file.
+
+This does introduce a attack vector, which could allow a attacker to upload image file (for example) containing HTML which the browser will execute.
+
 This HTTP header forces the browser to use the declared content-type and stops the browser from MIME sniffing.
+
 The recommended value:
 
 ```
