@@ -1,4 +1,4 @@
-The `alt` attribute (sometimes incorrectly named an __alt tag__) is used by screen reader software to provide an alternate to viewing images, i.e. for a person who is listening to the content of a webpage. The _alt text_ is also used by text-based browsers and browsers that have been configured to not display images. Search engines also place a relatively high value on alt text to determine the contents of an image, but also to determine the topic of the surrounding text.
+The `alt` attribute (sometimes incorrectly named an _alt tag_) is used by screen reader software to provide an alternate to viewing images, i.e. for a person who is listening to the content of a webpage. The _alt text_ is also used by text-based browsers and browsers that have been configured to not display images. Search engines also place a relatively high value on alt text to determine the contents of an image, but also to determine the topic of the surrounding text.
 
 # Missing Alt Attribute
 
@@ -34,7 +34,7 @@ Decorative or layout-related `img` tags should be transitioned to css-based imag
 
 # Avoid Keyword Stuffing
 
-Don't stuff `alt` attributes with keywords (See: [Irrelevant Keywords](https://support.google.com/webmasters/answer/66358) ).
+Don't stuff `alt` attributes with keywords (See: [Irrelevant Keywords](https://support.google.com/webmasters/answer/66358) ). This confuses screen reader users and you will be penalized in your search rankings.
 
 # Resources
 
