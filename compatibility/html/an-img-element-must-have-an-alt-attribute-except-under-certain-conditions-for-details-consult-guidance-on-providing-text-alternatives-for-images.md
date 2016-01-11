@@ -14,6 +14,11 @@ Some screen readers read out "image" or the filename of an image when the `alt` 
 Always add *descriptive* `alt` text to your images. Sometimes the function or the information an image is conveying is already present within the test of the page surrounding the image. In this case, a lengthy `alt` attribute isn't necessary — use a simple description instead.
 
 ```html
+<!-- Good: description of scene in image-->
+<img src="images/luna.jpg" alt="Pet cat, Luna, playing with yarn.">
+```
+
+```html
 <!-- Good: simple alt attribute with accompanying information -->
 <img src="images/mona-lisa.jpg" alt="Mona Lisa">
 <p>The Mona Lisa is a half-length portrait of a woman by the Italian artist Leonardo da Vinci, which has been acclaimed as "the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world." The painting, thought to be a portrait of Lisa Gherardini, the wife of Francesco del Giocondo, is in oil on a poplar panel, and is believed to have been painted between 1503 and 1506.</p> <!-- Wikipedia -->
