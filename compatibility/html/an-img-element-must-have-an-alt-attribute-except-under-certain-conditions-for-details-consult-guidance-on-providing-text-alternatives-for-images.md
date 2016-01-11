@@ -41,6 +41,11 @@ Decorative or layout-related `img` tags should be transitioned to css-based imag
 
 Don't stuff `alt` attributes with keywords (See: [Irrelevant Keywords](https://support.google.com/webmasters/answer/66358) ). This confuses screen reader users and you will be penalized in your search rankings.
 
+```html
+<!-- BAD, keyword stuffed alt text -->
+<img src="image/logo.png" alt="cat, toy, pet, pets, animals">
+```
+
 # Resources
 
 * [NC State University - Alternative Text Accessibility](https://accessibility.oit.ncsu.edu/training/accessibility-handbook/alternative-text.html)
