@@ -12,7 +12,7 @@ in the `<head>` of your page. This will render pages optimized to display well o
 
 # How do I fix this ?
 
-To fix ensure that the correct viewport supplied is configured correctly.
+Fixed by ensuring that the expected viewport is supplied to render optimized pages mobile devices correctly.
 
 # Resources
 
