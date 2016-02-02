@@ -1,4 +1,7 @@
-The canonical link element on the page needs to inform search engines about the appropriate page to use to define the content of the current page. This is important when the current page might contain content very similar to other pages on your website. Search engines tend to penalize duplicate content.
+Leaving the canonical link's ```href``` attribute empty might cause search engines to penalize a website's pages. Having a canonical location set in your ```link``` element for pages with similar or duplicate content would prevent this problem.
+
+The canonical link element on the page needs to inform search engines about the appropriate page to use to define the content of the current page. This is important when the current page might contain content very similar to other pages on your website.
+
 
 ```
 <html>
