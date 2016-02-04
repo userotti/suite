@@ -11,12 +11,7 @@ The canonical link contains an error. This means the url given in the ```href```
 
 # How do I fix this ?
 
-Make sure there are no spelling mistakes in the url and that you can go view it in your web browser. If your web server is set to redirect to a different url, we expect a ```OK 200``` code from that web address.
-
-#   
-
-Which then has some paragraph text and possible code examples. All github flavored markdown supported.
-Go as deep as you see fit !
+Make sure there are no spelling mistakes in the url and that you can view it in your web browser. If your web server is set to redirect to a different url, we expect an ```OK 200``` code from that web address.
 
 # Resources
 
