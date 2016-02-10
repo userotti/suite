@@ -1,9 +1,10 @@
-Common alias of the page ```example.com``` or ```www.example.com``` is returning with an error code.   
+Common alias of the page is returning with an error code. If you included 'www' in front of your domain name, ```www.example.com```, we check to see if ```example.com``` redirects to ```www.example.com```. If you excluded the 'www' in ```example.com``` we check to see if it redirects to ```www.example.com```.     
+This problem occurred while testing the domain redirects.  
 
 <!-- The following heading is enforced by the interpreter -->
 # How do I fix this ?
 
-Please check the common addresses mentioned above in a web browser and make sure they work correctly. If additional domain aliases are being used please check all of them by going to the specific alias in a web browser.   
+Please make sure that your server is set to redirect to the correct page when the 'www' is omitted from the url.
 
 # Resources
 
